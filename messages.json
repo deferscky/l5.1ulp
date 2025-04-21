@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "$type": "Email",
+      "sender": "bobr@mail.ru",
+      "recipient": "crocodil@mail.ru",
+      "subject": "Hello!"
+    },
+    {
+      "$type": "Letter",
+      "senderAddress": "Staropupunski 12",
+      "recipientAddress": "Pushkina 120",
+      "content": "This is a letter."
+    },
+    {
+      "$type": "ElectronicMessage",
+      "content": "This is an electronic message."
+    }
+  ]
+}
